@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .navbar{
+    background-color: #5C4E38;
+}
+
+header .title{
+    float: left;
+    margin-left: 5%;
+}
+
+header .navs{
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: #F0EBCE;
+}
+
+header .navbar .navbar-brand{
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 130%;
+    line-height: 143.75%;
+    color: #F0EBCE;
+}
+
+header .title .navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 250%;
+    color: #F0EBCE;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+header .title img{
+    margin-bottom: 10%;
+    width: 37.76px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+
+main h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #395144;
+}
+
+main h2 a{
+    color: #395144;
+}
+
+main .carta_container{
+    margin-left: 17%;
+}
+
+
+main .carta_container img{
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 3%;
+}
+
+main .carta_container .paragraph{
+    text-align: justify;
+    font-family: 'Robot';
+    color: #395144;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: #F0EBCE; 
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 625px;
+    overflow: auto;
+}
+
+
+main .button{
+    clear: both;
+    height: auto;
+    background: #b4865c;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 100%;
+    text-align: center;
+    color: #fcfaf6;
+    padding: 10px;
+    width: 100px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+a{
+    text-decoration: none;
+    color:#F5E9CF;
+}
+
+footer{
+    background-color: #5C4E38;
+    height: auto;
+    overflow: auto;
+    clear: both;
+    margin-top: 2%;
+}
+
+footer p{
+    font-family: 'Robot';
+    font-weight: 500;
+    font-size: 112.5%;
+    line-height: 131.25%;
+    color: #F0EBCE;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+

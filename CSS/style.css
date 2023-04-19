@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    overflow: auto;
+    height: 450px;
+    background-image: url(../imagens_icones/background_camilo.png);
+    background-size: cover;
+    margin-top: -20px;
+}
+
+
+header .navbar{
+    background-color: #5C4E38;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header .title{
+    float: left;
+    margin-left: 5%;
+}
+
+header .navs{
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+
+header .navbar .navbar-brand{
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 130%;
+    line-height: 143.75%;
+    color: #F0EBCE;
+}
+
+header .title .navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 250%;
+    color: #F0EBCE;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+header .title img{
+    margin-bottom: 10%;
+    width: 37.76px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+header h1{
+    font-family: 'Montserrat';
+    font-size: 6vw;
+    text-align: left;
+    color: #F0EBCE;
+    margin-top: 200px;
+    margin-left: 55px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .author_container{
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    background: #395144;
+}
+
+main .author_container h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 450%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #B0A883;
+}
+
+main .author_container img{
+    float: left;
+    margin: 0px 40px 40px 40px;
+    max-width: 80%;
+    height: auto;
+}
+
+main .author_container p{
+    font-family: 'Robot';
+    margin: 120px 60px 80px 80px;
+    text-align: justify;
+    color:#CCC097;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    width: 80%;
+}
+
+main .responsive-iframe{
+    margin: 20px 0 80px 80px;
+    background-color: #ffffff;
+    max-width: 80%;
+    height: 500px;
+    width: 900px;
+    padding: 10px;
+}
+
+main .obras_container{
+    height: auto;
+    overflow: auto;
+    background: #CCC097;
+}
+
+main .obras_container h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 450%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #395144;
+}
+
+main .obras_container p{
+    font-family: 'Robot';
+    font-weight: 300;
+    font-size: 112.5%;
+    text-align: left;
+    margin: 50px 0 50px 30px;
+    color: #395144;
+}
+
+main .obras_container a{
+    font-weight: bold;
+    color: #395144;
+}
+
+
+main .obras_container .row{
+    margin: auto;
+}
+
+main .obras_container .col-sm-6{
+    width: 250px;
+
+    background: #FCFAF6;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+main .obras_container .col-sm-6 img{
+    height: 300px;
+    margin-top: 20px;
+}
+
+main .obras_container .col-sm-6 p{
+    margin: 10px;
+    font-family: 'Robot';
+    font-weight: 300;
+    font-size: 87.5%;
+    text-align: justify;
+    color: #100D09;
+}
+
+
+main .obras_container .col-sm-6 .button{
+    background: #395144;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Robot';
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+    color: #F5E9CF;
+    padding: 5px;
+    margin: auto;
+}
+
+main .obras_container .obras_btn{
+    background: #395144;
+    width: 200px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Robot';
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+main .obras_container .obras_btn a{
+    text-decoration: none;
+    color: #F5E9CF;
+}
+
+main .obras_container .col-sm-6 .button a{
+    text-decoration: none;
+    color: #F5E9CF;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffffff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffffff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+main .cartas_container{
+    height: auto;
+    overflow: auto;
+    background: #395144;
+}
+
+body{margin-top:20px;}
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:1200px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #ffffff;
+        width: 6.46rem;
+        position: absolute;
+        left: 7.5rem;
+        bottom: 230px;
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+#cartas .container{
+    margin-bottom: 30px;
+}
+
+
+main .cartas_container h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 450%;
+    text-align: center;
+    margin-top: 60px;
+    color: #B0A883;
+}
+
+main .cartas_container p{
+    font-family: 'Robot';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 112.5%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #CCC097;
+}
+
+main .cartas_container a{
+    text-decoration: none;
+    color: #e9e6dc;
+}
+
+main .cartas_container .button{
+    width: 100px;
+    background: #B4835C;
+    margin: auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+main .filmes_container{
+    height: auto;
+    overflow: auto;
+    background: #100D09;
+}
+
+main .filmes_container h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 450%;
+    text-align: center;
+    margin: 60px 0 40px 0;
+    color: #FCFAF6;
+}
+
+main .filmes_container p{
+    font-family: 'Robot';
+    font-weight: 300;
+    font-size: 112.5%;
+    margin: 20px 0 40px 40px;
+    color: #395144;
+}
+
+main .filmes_container .row{
+    margin: auto;
+}
+
+main .filmes_container .col-sm-6{
+    width: 250px;
+    height: auto; 
+    background: #FCFAF6;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+main .filmes_container .col-sm-6 img{
+    height: auto;
+    margin-top: 20px;
+}
+
+main .filmes_container .col-sm-6 p{
+    margin: 10px;
+    font-family: 'Robot';
+    font-weight: 300;
+    font-size: 87.5%;
+    text-align: justify;
+    color: #395144;
+    height: auto;
+}
+
+main .filmes_container .col-sm-6 .button{
+    height: auto;
+    width: 50%;
+    display: inline;
+    background: #395144;
+    border-radius: 5px;
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 70%;
+    text-transform: uppercase;
+    margin: 0 0 10px 10px;
+    text-align: center;
+    color: #FCFAF6;
+    padding: 10px;
+
+}
+
+main .filmes_container .col-sm-6 .button_2{
+    height: auto;
+    display: inline;
+    background: #395144;
+    border-radius: 5px;
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 70%;
+    text-transform: uppercase;
+    margin: 0 0 10px 12px;
+    text-align: center;
+    color: #F5E9CF;
+    padding: 10px;
+}
+
+
+main .filmes_container .col-sm-6 .button a{
+    text-decoration: none;
+    color: #F5E9CF;
+}
+
+main .filmes_container .col-sm-6 .button_2 a{
+    text-decoration: none;
+    color: #F5E9CF;
+}
+
+main .museu_container{
+    height: auto;
+    overflow: auto;
+    background: #CCC097;
+}
+
+main .museu_container .map{
+    width: 1169px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 15px;
+    
+    margin: auto;
+}
+
+main .museu_container .w-100{
+    margin: auto;
+}
+
+main .museu_container .col-sm-6{
+    width: 317px;
+    height: 295px;  
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: -40px 35px 45px 28px;
+    z-index: 1;
+}
+
+main .museu_container .col-sm-6 a{
+    text-decoration: none;
+    color: #395144;
+}
+
+main .museu_container img{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+main .museu_container h3{
+    font-family: 'Robot';
+    font-size: 200%;
+    text-align: center;
+    margin: 30px 0 30px 0;
+    color: #395144;
+}
+
+main .museu_container p{
+    font-family: 'Robot';
+    font-weight: 500;
+    font-size: 100%;
+    text-align: center;
+    color: #395144;
+}
+
+main .museu_container h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 450%;
+    text-align: center;
+    color: #395144;
+    margin: 60px 0 20px 0;
+}
+
+main .museu_container .button{
+    height: auto;
+    display: block;
+    background: #395144;
+    border-radius: 5px;
+    font-family: 'Robot';
+    font-weight: 700;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #F5E9CF;
+    padding: 10px;
+    width: 150px;
+    margin: auto;
+}
+
+main .museu_container .button a{
+    text-decoration: none;
+    color: #F5E9CF;
+
+}
+
+main .museu_container .btn{
+    background-color: #395144;
+    border-radius: 5px;
+    border-color: #395144;
+    font-family: 'Robot';
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+    color: #F5E9CF;
+}
+
+
+main .museu_container .col-lg-7 .col-md-9{
+    margin: auto;
+}
+
+main .museu_container .col-lg-7{
+    margin: auto;
+   
+}
+
+main .museu_container .col-lg-7 label{
+    color:#395144;
+    margin: auto;
+}
+
+main #museu button{
+    text-transform: uppercase;;
+}
+
+main #museu .text-center{
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #5C4E38;
+    height: auto;
+    overflow: auto;
+}
+
+footer p{
+    font-family: 'Robot';
+    font-weight: 500;
+    font-size: 112.5%;
+    line-height: 131.25%;
+    color: #F0EBCE;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+footer .foot_link{
+    float: right;
+    margin-right: 30px;
+}
+
+footer img{
+    margin: 30px;
+}
+
+footer .foot_link a{
+    text-decoration: none;
+    font-family: 'Robot';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 112.5%;
+    color: #F0EBCE;
+}
+

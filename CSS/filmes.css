@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .navbar{
+    background-color: #5C4E38;
+}
+
+header .title{
+    margin-left: 5%;
+}
+
+header .navs{
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: #F0EBCE;
+}
+
+header .navbar .navbar-brand{
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 130%;
+    line-height: 143.75%;
+    color: #F0EBCE;
+}
+
+header .title .navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 250%;
+    color: #F0EBCE;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+header .title img{
+    margin-bottom: 5%;
+    width: 37.76px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+main{
+    overflow: auto;
+}
+
+main h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    color: #100D09;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+main h2{
+    font-family: 'Robot';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #100D09;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+main .filme_container{
+    height: 500px;
+    width: auto;
+}
+
+
+main .filme_container img{
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 10px 45px 0 45px;
+}
+
+main .filme_container p{
+    font-family: 'Robot';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #395144;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 1.5;
+
+}
+
+
+main .button{
+    clear: both;
+    height: auto;
+    background: #395144;
+    border-radius: 5px;
+    font-family: 'Robot';
+    font-weight: 900;
+    font-size: 100%;
+    text-align: center;
+    color: #F5E9CF;
+    padding: 10px;
+    width: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+main .volt{
+    background-color: #B4865C;
+    color:#fcfaf6;
+}
+
+a{
+    text-decoration: none;
+    color:#F5E9CF;
+}
+
+
+footer{
+    background-color: #5C4E38;
+    height: auto;
+    overflow: auto;
+    clear: both;
+}
+
+footer p{
+    font-family: 'Robot';
+    font-weight: 500;
+    font-size: 112.5%;
+    line-height: 131.25%;
+    color: #F0EBCE;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+
